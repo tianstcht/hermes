@@ -164,6 +164,8 @@ Value CrashFunction(
       exit(-1);
     } else if (crashCode == 1.0) {
       assert(1 == 0);
+    } else {
+      assert(1 == 0);
     }
   }
   return Value();
