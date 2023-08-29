@@ -185,7 +185,7 @@ class MemoryBuffer : public facebook::jsi::Buffer {
 };
 
 int main(int argc, char **argv) {
-  if (argc != 2 || strcmp(argv[1], "--replr") != 0)
+  if (argc != 2 || strcmp(argv[1], "--reprl") != 0)
     return 0;
   // get fuzzer arguments
   char helo[] = "HELO";
